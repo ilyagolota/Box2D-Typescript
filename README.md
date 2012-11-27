@@ -3,11 +3,12 @@ Box2D-Typescript
 
 Box2D definitions for TypeScript
 
-== Naming changes
+Source contains two files: TypeScript definitions file and JavaScript file. Definitions
+are not allowed to be used with any different Box2DWeb source because all names in the library
+was changed to match JavaScript/Typescript style.
 
-All names in lib was changed to match JavaScript/Typescript style. So functio
-names start with lowercase letter. Constants are upcase. All prefices
-"b2" and "E_" was removed (there are namespaces instead).
+So function names start with lowercase letter. Constants are upcase. All prefices "b2" and
+"E_" was removed (there are namespaces instead).
 
 For example use
 
